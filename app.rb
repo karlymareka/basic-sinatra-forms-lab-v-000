@@ -6,7 +6,7 @@ class App < Sinatra::Base
     
   end
   
-  post '/food' do
+  post '/team' do
     params.to_s 
   end 
 end
