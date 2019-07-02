@@ -8,6 +8,7 @@ class App < Sinatra::Base
     @point_guard = params["pg"]
     @shooting_guard = params["sg"]
     @power_forward = params["pf"]
+    @small_forward = params["c"]
     erb :newteam
   end
   
