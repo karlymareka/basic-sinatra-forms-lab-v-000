@@ -7,6 +7,7 @@ class App < Sinatra::Base
     @coach = params["coach"]
     @point_guard = params["pg"]
     @shooting_guard = params["sg"]
+    @power_forward = params["pf"]
     erb :newteam
   end
   
