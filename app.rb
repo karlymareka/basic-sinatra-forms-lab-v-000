@@ -9,6 +9,7 @@ class App < Sinatra::Base
   
   post '/newteam' do 
     @team_name = params["name"]
+  end 
   
   post '/team' do
     
